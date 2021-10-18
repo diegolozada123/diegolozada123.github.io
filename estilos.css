@@ -10,7 +10,8 @@
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-around;
-	margin: 100px;
+	margin-top: 100px;
+	margin-bottom: 100px;
 	padding-top: 50px;
 }
 .iniciotexto{
@@ -64,7 +65,8 @@ line-height: 40px;
 
 .tituloservicios{
 	background: #3F3D56;
-	padding: 60px;
+	padding-top: 60px;
+		padding-bottom: 60px;
 }
 
 
@@ -99,7 +101,8 @@ border-bottom: 1px #fff solid;
 
 .trabajos{
 	background: #f2f2f2;
-	padding: 100px;
+	padding-top: 100px;
+		padding-bottom: 100px;
 }
 
 .trabajotitulo{
@@ -149,7 +152,8 @@ margin-bottom: 50px;
 	max-width: 1280px;
 	margin: auto;
 border-bottom: 1px  #3F3D56 solid;
-padding: 100px;
+padding-top: 100px;
+padding-bottom: 100px;
 }
 
 .conocimiento{
@@ -178,7 +182,7 @@ padding: 100px;
 
 .informacion{
 	max-width: 1280px;
-	margin: 150px;
+	margin: 80px;
 }
 .sobre-mi{
 	margin-top: 100px;
@@ -275,7 +279,7 @@ nav a{
 	color: #f2f2f2;
 	text-decoration: none;
 	font-weight: 600;
-	font-size: 17px;
+	font-size: 15px;
 	margin-right: 20px;
 }
 
@@ -300,7 +304,10 @@ nav a:hover{
 	.hamburguesa{
 		display: block;
 	}
+nav a{
+	font-size: 12px;
 
+}
 	.enlaces{
 		position: fixed;
 		background: #303a52;
@@ -344,7 +351,7 @@ nav a:hover{
 
 @media screen and (max-width:780px){
 	.informacion{
-		margin: 50px;
+		margin: 30px;
 	}
 	.iniciotexto .nombre{
 		font-size: 25px;
@@ -378,7 +385,7 @@ font-size: 45px;
 
 	.sobre-mi p{
 		font-size: 17px;
-		width: 700px;
+		
 	}
 .sobre-mi img{
 width: 300px;
@@ -461,7 +468,7 @@ line-height: 30px;
 	width: 100%;
 }
 .trabajos{
-	padding: 50px;
+	padding: 30px;
 }
 }
 @media screen and (max-width:350px){
