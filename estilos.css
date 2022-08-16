@@ -65,6 +65,10 @@ line-height: 40px;
 
 .inicioimagen img{
 	width: 400px;
+	transition:.7s;
+}
+.inicioimagen img:hover{
+	width: 415px;
 }
 
 .tituloservicios{
