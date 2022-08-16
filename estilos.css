@@ -129,9 +129,15 @@ flex-wrap: wrap;
 display: flex;
 flex-direction: column;
 margin-bottom: 50px;
+
+}
+
+.trabajo img:hover{
+	width: 515px;
 }
 .trabajo img{
 	width: 500px;
+	transition: .7s;
 }
 
 .trabajo a{
