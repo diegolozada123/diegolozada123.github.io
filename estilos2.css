@@ -79,7 +79,7 @@ margin-bottom: 15px;
 .contenedor-trabajo img:first-child {
 	display:block;
 	width:100%;
-	min-height:250px
+	min-height:200px
 }
 .modal {
 	display:none;
@@ -479,6 +479,7 @@ line-height: 40px;
 }
 
 @media screen and (max-width:780px){
+
 	.iniciotexto h1{
     font-size: 40px;
 	}
@@ -533,6 +534,7 @@ line-height: 40px;
 @media screen and (max-width:560px){
 	.trabajo .contenedor-trabajo{
 		width: 300px;
+		height: 300px;
 	}
 	.acerca-de-mi{
 		width: 70%;
@@ -563,6 +565,7 @@ line-height: 40px;
 
 }
 @media screen and (max-width:475px){
+
 .iniciotexto h1{
     font-size: 30px;
 	}
@@ -572,6 +575,9 @@ line-height: 40px;
 }
 
 @media screen and (max-width:415px){
+		.trabajo img:hover{
+	width: 220px;
+}
 	.iniciotexto h1{
     font-size: 25px;
 	}
